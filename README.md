@@ -32,6 +32,9 @@ Pinturillo es una aplicación web desarrollada con **Spring Boot** (Java) y **P5
 3. **Sincronización**: el frontend consulta periódicamente la API para obtener nuevos trazos y actualiza el tablero.
 4. **Borrado**: al presionar el botón de borrar, se elimina el contenido del tablero para todos los usuarios.
 
+
+![alt text](/img/image.png)
+
 ---
 
 ## Instalación y ejecución

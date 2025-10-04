@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pinturillo - Tablero Compartido</title>
+  <link rel="stylesheet" href="/style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  <script defer src="/js/sketch.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="Tablero colaborativo en tiempo (casi) real con Java Spring + P5.js" />
+</head>
+<body>
+  <header>
+    <h1>Pinturillo</h1>
+    <div class="toolbar">
+      <button id="clearBtn" title="Borrar tablero para todos">🧹 Borrar</button>
+      <label>
+        Grosor
+        <input id="sizeRange" type="range" min="2" max="40" value="8" />
+      </label>
+      <div class="color-pill">
+        <span id="colorSwatch"></span>
+        <span id="colorText"></span>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div id="canvas-container"></div>
+  </main>
+  <footer>
+    <small>Pinturillo ARSW - Juan José Díaz</small>
+  </footer>
+</body>
+</html>

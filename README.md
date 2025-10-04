@@ -80,18 +80,13 @@ Pinturillo es una aplicación web desarrollada con **Spring Boot** (Java) y **P5
 
 ## Colaboración en tiempo real
 
-- **Sin WebSockets**: la colaboración se logra mediante polling frecuente al backend.
+- **Sin WebSockets**: la colaboración se logra mediante llamado frecuente al backend.
 - **Tablero único**: todos los usuarios ven y modifican el mismo tablero.
 - **Borrado global**: el botón de borrar afecta a todos los usuarios simultáneamente.
 
 ---
 
-## Personalización y mejoras
 
-- Puedes modificar la paleta de colores, el grosor del pincel y el intervalo de polling en el archivo `sketch.js`.
-- Para una experiencia más fluida, se podría implementar WebSockets en el futuro.
-
----
 
 ## Autor
 
